@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+body{
+    background-image: url(../images/informatica1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:yellow;
+    font-family: 'Caveat', cursive;
+
+}
+
+.logo_empresa{
+    height: 80px;
+    width: 220px;
+    color: #000;
+    float: left;
+}
+
+header{
+    height: 80px;
+    position:fixed;
+    width: 100%;    
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    color: antiquewhite;
+    background: rgb(31,28,29);
+    background: radial-gradient(circle, rgba(31,28,29,0.711922268907563) 67%, rgba(67,71,75,0.8463760504201681) 100%);
+}
+li{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between ;
+    bottom: 0;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+
+}
+.footer_logos{
+    margin-left: 15px;
+}
+
+.main_pages{
+    margin-top: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 15px;
+    align-items: center;
+    font-size: 19px;
+}
+
+
+.div_logo_wss{
+    position: fixed;
+    left: 1305px;
+    top: 565px;
+    overflow:initial;
+    z-index: 1;
+}
+.logo_wss{
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+}
+.h2_inicio_pd{
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.h1_pages{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.h2_pages{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.h2_consultas{
+    text-align: center;
+    margin-top: 25px;
+    width: 52%;
+}
+
+.h3_servicios{
+    text-align: start;
+    margin-top: 15px;
+}
+.section_servicios_destacar{
+    height: 45px;
+    margin-top: 15px;
+    display: flex;
+    background: rgb(31,28,29);
+    background: radial-gradient(circle, rgba(31,28,29,0.711922268907563) 67%, rgba(67,71,75,0.8463760504201681) 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.h3_servicios_destacar{
+    color: red;
+}
+
+.logo_redes{
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    margin: 3px;
+}
+
+.section_contacto{
+    justify-content: justify;
+    display: flex;
+    
+}
+
+.boton_consulta{
+    margin: 5px;
+}
+
+form{
+    width: 47%;
+    border: solid 2px black;
+    margin: 1%;
+    margin-top: 5px;
+    padding: 1%;
+    font-size: large;
+    background: rgb(134,153,183);
+    background: radial-gradient(circle, rgba(134,153,183,0.8435749299719888) 67%, rgba(207,208,147,0.908000700280112) 100%);
+    color: black;
+}
+.mapaInsertado{
+    margin-top: 6px;
+}
+a{
+    text-decoration: none;
+}
+.section_inicio_cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    padding: .8em;
+    background: rgb(134,153,183);
+    background: radial-gradient(circle, rgba(134,153,183,0.7147233893557423) 39%, rgba(241,241,240,0.17130602240896353) 100%);
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 1rem;
+}
+   
+.card-img {
+    background-color: #ffcaa6;
+    height: 40%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .5s ease;
+}
+   
+.card-info {
+    padding-top: 5%;
+}
+   
+svg {
+    width: 20px;
+    height: 20px;
+}
+   
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+   
+/*Text*/
+.text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+   
+.text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+}
+   
+/*Button*/
+.card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+}
+   
+/*Hover*/
+.card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+   
+   .card-button:hover {
+    border: 1px solid #ffcaa6;
+    background-color: #ffcaa6;
+}
+  
+@media screen and (min-width:0px) and (max-width: 479px){
+    body {
+        background-color: violet;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 767px){
+    body {
+        background-color: brown;
+    }
+}
+
