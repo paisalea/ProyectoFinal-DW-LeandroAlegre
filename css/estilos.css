@@ -13,7 +13,7 @@ body{
     background-size: cover;
     color:yellow;
     font-family: 'Caveat', cursive;
-
+    width: 100vw;
 }
 
 .logo_empresa{
@@ -26,7 +26,7 @@ body{
 header{
     height: 80px;
     position:fixed;
-    width: 100%;    
+    width: 100vw;    
     left: 0px;
     top: 0px;
     z-index: 100;
@@ -43,7 +43,7 @@ footer{
     bottom: 0;
     align-items: center;
     height: 40px;
-    width: 100%;
+    width: 100vw;
 
 }
 .footer_logos{
@@ -54,21 +54,18 @@ footer{
     margin-top: 100px;
 }
 
-ul{
+.ul_nav{
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    
 }
 
-li {
+.li_nav {
     display: inline-block;
     margin-left: 5px;
-    margin-right: 15px;
-    align-items: center;
     font-size: 19px;
 }
-
 
 .div_logo_wss{
     position: fixed;
@@ -83,8 +80,6 @@ li {
     margin: 3px;
 }
 .h2_inicio_pd{
-    text-align: center;
-    width: 50%;
     margin-top: 10px;
 }
 
