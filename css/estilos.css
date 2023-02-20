@@ -54,16 +54,18 @@ footer{
 
 .main_pages{
     margin-top: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .div_logo_wss{
     position: fixed;
-    right: 24px;
+    right: 10px;
     bottom: 5px;
     z-index: 1;
 }
 .logo_wss{
-    height: 50px;
+    height: 40px;
     width: 40px;
     margin: 3px;
 }
@@ -143,6 +145,7 @@ a{
 
 .div_home{
     margin-top: 30px;
+    justify-content: center;
 }
 
 .card {
