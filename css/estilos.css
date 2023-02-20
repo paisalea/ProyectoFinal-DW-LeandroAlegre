@@ -6,7 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 body{
-    background-image: url(../images/informatica1.jpg);
+    background-color: dimgray;
+    background-image: url(../assets/images/informatica1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -213,10 +214,18 @@ svg {
     background-color: #ffcaa6;
 }
   
-
-@media (max-width: 576px) { 
+@media (min-width: 0px) { 
     .ul_nav{
-        margin: 12px;
+        margin-right: 20px;
+    }
+    .div_logoempresa{
+        text-align: center;
+    }
+ }
+
+@media (min-width: 576px) { 
+    .ul_nav{
+        margin-right: 20px;
     }
     .div_logoempresa{
         text-align: center;
@@ -225,23 +234,31 @@ svg {
 
  
 @media (min-width: 768px) { 
-    
+    .ul_nav{
+        margin-right: 20px;
+    }
+    .div_logoempresa{
+        text-align: start;
+        margin-left: 5px;
+    }
  }
 
 
 @media (min-width: 992px) { 
     .ul_nav{
-        margin-right: 4%;
+        margin-right: 34px;
     }
  }
 
 @media (min-width: 1200px) { 
     .ul_nav{
-        margin-right: 15px;
+        margin-right: 14px;
     }
  }
 
 
 @media (min-width: 1400px) { 
-    
+    .ul_nav{
+        margin-right: 15px;
+    }
  }
