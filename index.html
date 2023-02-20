@@ -12,23 +12,26 @@
     <title>Inicio</title>
 </head>
 <body>
-    <header class="menu">
-        <nav class="row justify-content-between">
-          <div class="col-4">
-            <a title="Innova Digital" href="./index.html"><img class= "logo_empresa" src="./images/logo_empresa.png" alt="logo_empresa" /></a>
-          </div>
-            <ul class="ul_nav col-5 me-4">
-                <li class="li_nav"><a href="./pages/productos.html">Productos</a></li>
-                <li class="li_nav"><a href="./pages/nuestros_servicios.html">Nuestros servicios</a></li>
-                <li class="li_nav"><a href="./pages/sobre_nosotros.html">Sobre Nosotros</a></li>
-                <li class="li_nav"><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+    <header class="w-100 h-auto">
+      <div class="div_logoempresa row h-auto justify-content-between">
+        <div class="col-md-3 col-sm-12 h-auto d-flex">
+          <a title="Innova Digital - Inicio" href="./index.html"><img class= "logo_empresa" src="./images/logo_empresa.png" alt="logo_empresa"/></a>
+        </div>
+        <nav class="col-md-6 col-sm-12 h-auto">
+          <ul class="ul_nav d-flex align-items-center justify-content-between h-100">
+            <li><a href="./pages/productos.html">Productos</a></li>
+            <li><a href="./pages/nuestros_servicios.html">Nuestros Servicios</a></li>
+            <li><a href="./pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
     <main class="main_pages row justify-content-around">
         <section class="container col-6">
-          <h2 class="row-cols-6 text-center "> Productos Destacados</h2> 
-            <div class="card row-cols-6">
+          <h2 class=" text-center "> Productos Destacados</h2> 
+          <div class="row">
+            <div class="card col-md-4">
                 <div class="card-img"></div>
                 <div class="card-info">
                   <p class="text-title">Product title </p>
@@ -45,7 +48,7 @@
                   </div>
               </div>
             </div>
-            <div class="card row-cols-6">
+            <div class="card col-md-4">
                 <div class="card-img"></div>
                 <div class="card-info">
                   <p class="text-title">Product title </p>
@@ -62,7 +65,7 @@
                 </div>
               </div>
             </div>
-            <div class="card d-flex-row col-1">
+            <div class="card col-3">
                 <div class="card-img"></div>
                 <div class="card-info">
                   <p class="text-title">Product title </p>
@@ -78,7 +81,7 @@
                   </svg>
                 </div>
             </div></div>
-            <div class="card d-flex-row col-1">
+            <div class="card col-3">
                 <div class="card-img"></div>
                 <div class="card-info">
                   <p class="text-title">Product title </p>
@@ -94,8 +97,9 @@
                   </svg>
                 </div>
             </div></div>
+            </div>
         </section>
-        <section class="col-6">
+        <section class="col-5">
           <h2 href="#" class="list-group active text-center"> Nuestros Servicios</h2> 
           <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action">Desarrollo de Paginas Web</a>

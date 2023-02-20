@@ -5,7 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-
 body{
     background-image: url(../images/informatica1.jpg);
     background-repeat: no-repeat;
@@ -18,26 +17,27 @@ body{
 }
 
 .logo_empresa{
-    height: 80px;
+    height: 13vh;
     width: 220px;
     color: #000;
-    float: left;
 }
 
 header{
     height: 13vh;
+    width: 100vw;
     position:fixed;
-    width: 100vw;    
     left: 0px;
     top: 0px;
     z-index: 100;
     color: antiquewhite;
     background: rgb(31,28,29);
     background: radial-gradient(circle, rgba(31,28,29,0.711922268907563) 67%, rgba(67,71,75,0.8463760504201681) 100%);
+    }
+
+.ul_nav{
+    list-style:none;
 }
-li{
-    text-decoration: none;
-}
+
 footer{
     display: flex;
     justify-content: space-between ;
@@ -45,38 +45,25 @@ footer{
     align-items: center;
     height: 7vh;
     width: 100vw;
-
 }
+
 .footer_logos{
     margin-left: 15px;
 }
 
 .main_pages{
-    margin-top: 100px;
-}
-
-.ul_nav{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.li_nav {
-    display: inline-block;
-    margin-left: 5px;
-    font-size: 19px;
+    margin-top: 120px;
 }
 
 .div_logo_wss{
     position: fixed;
-    left: 1305px;
-    top: 565px;
+    left: 1290px;
+    top: 545px;
     overflow:initial;
     z-index: 1;
 }
 .logo_wss{
-    height: 40px;
+    height: 50px;
     width: 40px;
     margin: 3px;
 }
@@ -226,15 +213,35 @@ svg {
     background-color: #ffcaa6;
 }
   
-@media screen and (min-width:0px) and (max-width: 479px){
-    body {
-        background-color: violet;
-    }
-}
 
-@media screen and (min-width:480px) and (max-width: 767px){
-    body {
-        background-color: brown;
+@media (max-width: 576px) { 
+    .ul_nav{
+        margin: 12px;
     }
-}
+    .div_logoempresa{
+        text-align: center;
+    }
+ }
 
+ 
+@media (min-width: 768px) { 
+    
+ }
+
+
+@media (min-width: 992px) { 
+    .ul_nav{
+        margin-right: 4%;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .ul_nav{
+        margin-right: 15px;
+    }
+ }
+
+
+@media (min-width: 1400px) { 
+    
+ }
