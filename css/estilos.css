@@ -162,7 +162,7 @@ a{
 }
 
 .card {
-    width: 250px;
+    width: 228px;
     height: 290px;
     padding: .3em;
     background: rgb(134,153,183);
@@ -175,13 +175,13 @@ a{
 }
    
 .card-img {
-    height: 150px;
+    height: 160px;
     width: auto;
     border-radius: 1rem;
     transition: .7s ease;
 }
 .img_productos{
-    height:100%;
+    height:160px;
     width: 100%;
     border-radius: 1rem;
 }
@@ -209,13 +209,14 @@ svg {
     font-size: 1.2em;
     line-height: 0.7;
     margin-left: 9px;
+    margin-top: 3px;
 }
    
 .text-body {
     font-size: .8em;
     padding: 1px;
     margin-left: 9px;
-
+    height: 29px;
 }
    
 /*Button*/
