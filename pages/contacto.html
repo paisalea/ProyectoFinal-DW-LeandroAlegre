@@ -30,39 +30,56 @@
 
     <main class="main_pages">
         <h1 class="h1_pages">COMO CONTACTARNOS</h1>
-        <section class="section_contacto">
-            <h2 class="h2_consultas">Consultas</h2>
-
-            <h2 class="h2_consultas">Ubicación</h2>
+        <div class="row">
+        <section class="d-flex flex-column col-md-6 col-sm-12">
+            <h2 class="text-center">Consultas</h2>
+            <form action="" class="form_consultas p-2">
+                <div class="mb-1 mt-0">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre y Apellido">
+                </div>
+                <div class="mb-1 mt-0">
+                    <label for="contacto">Telefono</label>
+                    <div class="input-group"> 
+                        <input type="text" aria-label="CodArea" id="codArea" class="form-control" placeholder="Cod. Área">
+                        <input type="text" aria-label="telefono" id="telefono" class="form-control" placeholder="Número de Teléfono">
+                    </div>
+                </div>
+                <div class="mb-1 mt-0">
+                    <label for="correo" class="form-label">E-mail</label>
+                    <input type="text" required placeholder="correo@dominio.com" class="form-control" id="correo">
+                </div>
+                <div class="mb-1">
+                    <label for="lugar">Lugar</label>
+                    <div class="input-group row g-2"> 
+                        <input type="text" aria-label="localidad" id="localidad" class="form-control col-md-1" placeholder="Localidad">
+                        <input type="text" aria-label="provincia" id="provincia" class="form-control col-md-4" placeholder="Provincia">
+                    </div>
+                </div>
+                <div class="mb-1">
+                    <label for="descripcion" class="form-label">Indiquenos su consulta</label>
+                    <textarea class="form-control" id="descripcion" rows="4" placeholder="Escriba su consulta en este recuadro. En caso de desear una cita establezca la fecha y horario que le sea favorable y nos contactaremos con Ustedes para confirmarla."></textarea>
+                </div>
+                <div class="justify-text-center">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="estableceCita">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Deseo establecer una fecha para reunión</label>
+                </div>
+                <input type="date" name="fecha_cita" id="fecha_cita" class="form-control">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2">   
+                    <button type="reset" class="btn btn-secondary">Borrar Formulario</button>
+                    <button type="summit" class="btn btn-primary">Enviar Consulta</button>
+                </div>
+            </form>  
         </section>
-        <section class="section_contacto">
-            <form action="">
-                <label for="nombre">Nombre</label>
-                <input type="text" placeholder="Nombre y Apellido" name="nombre" id="nombre">
-                <br>
-                <label for="contacto">Telefono</label>
-                <input type="text" required placeholder="Numero de Contacto" name="contacto" id="contacto">
-                <br>
-                <label for="correo">E-mail</label>
-                <input type="text" required placeholder="correo@dominio.com" name="correo" id="correo">
-                <br>
-                <label for="lugar">Lugar </label>
-                <input type="text" placeholder="Localidad/Provincia" name="lugar" id="lugar">
-                <br>
-                <label for="descripcion">Descripcion de su Consulta </label> <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta en este recuadro. En caso de desear una cita establezca la fecha y horario que le sea favorable y nos contactaremos con Ustedes para confirmarla." name="descripcion" id="descripcion"></textarea>
-                <br>
-                <input type="checkbox" name="fechaok" id="fechaok" value="1" class="fecha_cita">
-                <a> Establecer posible fecha de cita</a>
-                <br>
-                <input type="date" name="fecha_cita" id="fecha_cita" class="fecha_cita">
-                <br>
-                <input class="boton_consulta" type="reset" value="Borrar Formulario">
-                <input class="boton_consulta" type="submit" value="Enviar Consulta">
-            </form>    
-            <iframe class="mapaInsertado" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.7967638079276!2d-68.84403639944047!3d-32.90354131522695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30235a153228e5d6!2zMzLCsDU0JzEyLjgiUyA2OMKwNTAnMzMuOSJX!5e0!3m2!1ses-419!2sar!4v1675543369191!5m2!1ses-419!2sar" width="47%" height="365" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a>San Martin 13</a></iframe>
-        </section>
 
+        <section class="d-flex flex-column col-md-6 col-sm-12"> 
+            <h2 class="text-center">Ubicación</h2> 
+            <iframe class="mapaInsertado" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.7967638079276!2d-68.84403639944047!3d-32.90354131522695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30235a153228e5d6!2zMzLCsDU0JzEyLjgiUyA2OMKwNTAnMzMuOSJX!5e0!3m2!1ses-419!2sar!4v1675543369191!5m2!1ses-419!2sar" width="95%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"><a>San Martin 13</a></iframe>
+            <a href="https://goo.gl/maps/AgQ2xEPGn5DzjNxi6" target="_blank" class="text-center"><p class="link-secondary direc text-center text-black fw-bold">San Martin 163, Ciudad de Mendoza.</p></a>
+        </section>
+    </div>
+        
     </main>
     <footer>
         <div class="row col-12 align-items-end">

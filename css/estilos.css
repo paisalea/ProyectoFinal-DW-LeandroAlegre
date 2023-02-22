@@ -51,8 +51,16 @@ footer{
 .div_homeServicios{
    background: rgb(134,153,183);
    background: radial-gradient(circle, rgba(134,153,183,0.7147233893557423) 39%, rgba(241,241,240,0.17130602240896353) 100%);
-   
 }
+
+.direc{
+    width: 95%;
+    height: 27px;
+}
+.direc:hover{
+    background-color: orange;
+}
+
 .div_redes{
     margin-left: 5px;
 }
@@ -124,22 +132,16 @@ footer{
     margin: 3px;
 }
 
-.section_contacto{
-    justify-content: justify;
-    display: flex;
-    
-}
-
 .boton_consulta{
     margin: 5px;
 }
 
-form{
-    width: 47%;
+.form_consultas{
+    width: 90%;
     border: solid 2px black;
-    margin: 1%;
+    border-radius: 15px;
+    margin-left: 15px;
     margin-top: 5px;
-    padding: 1%;
     font-size: large;
     background: rgb(134,153,183);
     background: radial-gradient(circle, rgba(134,153,183,0.8435749299719888) 67%, rgba(207,208,147,0.908000700280112) 100%);
@@ -147,6 +149,7 @@ form{
 }
 .mapaInsertado{
     margin-top: 6px;
+    border-radius: 15px;
 }
 
 a{
@@ -172,11 +175,15 @@ a{
 }
    
 .card-img {
-    background-color: #ffcaa6;
-    height: 70%;
-    width: 100%;
-    border-radius: .3rem;
+    height: 150px;
+    width: auto;
+    border-radius: 1rem;
     transition: .7s ease;
+}
+.img_productos{
+    height:100%;
+    width: 100%;
+    border-radius: 1rem;
 }
    
 .card-info {
@@ -239,6 +246,9 @@ svg {
     .div_logoempresa{
         text-align: center;
     }
+    .mapaInsertado{
+        height: 315px;
+    }
  }
 
 @media (min-width: 576px) { 
@@ -258,6 +268,9 @@ svg {
     .div_logoempresa{
         text-align: start;
         margin-left: 5px;
+    }
+    .mapaInsertado{
+        height: 85%;
     }
  }
 
