@@ -1,0 +1,36 @@
+header{
+    height: 13vh;
+    width: 100%;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    color: antiquewhite;
+    background: rgb(31,28,29);
+    background: radial-gradient(circle, rgba(31,28,29,0.711922268907563) 67%, rgba(67,71,75,0.8463760504201681) 100%);
+    div{
+        div{
+            a{
+            text-decoration: none;
+                img{
+                    
+                }
+                .logo_empresa{
+                    height: 13vh;
+                    width: 220px;
+                    color: #000; 
+                }
+            }
+        }
+        nav {
+            ul{
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

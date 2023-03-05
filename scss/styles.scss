@@ -1,0 +1,145 @@
+@import "./module/reset";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import "./module/body";
+@import "./module/header";
+@import "./module/cards";
+@import "./module/footer";
+
+
+.div_homeServicios{
+   background: rgb(134,153,183);
+   background: radial-gradient(circle, rgba(134,153,183,0.7147233893557423) 39%, rgba(241,241,240,0.17130602240896353) 100%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.direc{
+    width: 95%;
+    height: 27px;
+}
+.direc:hover{
+    background-color: orange;
+}
+
+
+
+.h2_inicio_pd{
+    margin-top: 10px;
+}
+
+.h1_pages{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.h2_pages{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.h2_consultas{
+    text-align: center;
+    margin-top: 25px;
+    width: 52%;
+}
+
+.h3_servicios{
+    text-align: start;
+    margin-top: 15px;
+}
+.section_servicios_destacar{
+    height: 45px;
+    margin-top: 15px;
+    display: flex;
+    background: rgb(31,28,29);
+    background: radial-gradient(circle, rgba(31,28,29,0.711922268907563) 67%, rgba(67,71,75,0.8463760504201681) 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.h3_servicios_destacar{
+    color: red;
+}
+
+.boton_consulta{
+    margin: 5px;
+}
+
+.form_consultas{
+    width: 90%;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: large;
+    background: rgb(134,153,183);
+    background: radial-gradient(circle, rgba(134,153,183,0.8435749299719888) 67%, rgba(207,208,147,0.908000700280112) 100%);
+    color: black;
+}
+.mapaInsertado{
+    margin-top: 6px;
+    border-radius: 15px;
+}
+
+.div_home{
+    margin-top: 30px;
+    justify-content: center;
+}
+   
+@media (min-width: 0px) { 
+    .ul_nav{
+        margin-right: 20px;
+    }
+    .div_logoempresa{
+        text-align: center;
+    }
+    .mapaInsertado{
+        height: 315px;
+    }
+ }
+
+@media (min-width: 576px) { 
+    .ul_nav{
+        margin-right: 20px;
+    }
+    .div_logoempresa{
+        text-align: center;
+    }
+ }
+
+ 
+@media (min-width: 768px) { 
+    .ul_nav{
+        margin-right: 20px;
+    }
+    .div_logoempresa{
+        text-align: start;
+        margin-left: 5px;
+    }
+    .mapaInsertado{
+        height: 85%;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .ul_nav{
+        margin-right: 34px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .ul_nav{
+        margin-right: 14px;
+    }
+ }
+
+
+@media (min-width: 1400px) { 
+    .ul_nav{
+        margin-right: 15px;
+    }
+ }

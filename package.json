@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2-alegre",
+  "version": "1.0.0",
+  "description": "Protecto Coderhouse Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paisalea/PreEntrega2-LeandroAlegre.git"
+  },
+  "author": "Leandro E. Alegre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paisalea/PreEntrega2-LeandroAlegre/issues"
+  },
+  "homepage": "https://github.com/paisalea/PreEntrega2-LeandroAlegre#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

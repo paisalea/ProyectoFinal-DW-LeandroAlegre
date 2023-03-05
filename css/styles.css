@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: dimgray;
+  background-image: url(../assets/images/informatica1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: yellow;
+  font-family: 'Caveat', cursive;
+  width: 100%;
+  height: 100vh; }
+
+.main_pages {
+  margin-top: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto; }
+
+header {
+  height: 13vh;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  color: antiquewhite;
+  background: #1f1c1d;
+  background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%); }
+  header div div a {
+    text-decoration: none; }
+    header div div a .logo_empresa {
+      height: 13vh;
+      width: 220px;
+      color: #000; }
+  header div nav ul {
+    list-style: none; }
+    header div nav ul li a {
+      text-decoration: none; }
+
+div .div_home {
+  margin-top: 30px;
+  justify-content: center; }
+
+div div div div .card_img {
+  height: 160px;
+  width: auto;
+  border-radius: 1rem; }
+
+div div div div img:hover {
+  transition: 1.2s ease;
+  transform: translateY(-15%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px; }
+
+div div div div .img_productos {
+  height: 160px;
+  width: 100%;
+  border-radius: 1rem; }
+
+div div div div .card_info {
+  padding-top: 1%; }
+
+div div div div p .text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 0.7;
+  margin-left: 9px;
+  margin-top: 3px; }
+
+div div div div p .text-body {
+  font-size: .8em;
+  padding: 1px;
+  margin-left: 9px;
+  height: 29px; }
+
+div div div .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd; }
+  div div div .card-footer .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 0.7;
+    margin-left: 9px;
+    margin-top: 3px; }
+  div div div .card-footer div:hover {
+    border: 1px solid #ffcaa6;
+    background-color: #ffcaa6; }
+  div div div .card-footer .card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out; }
+    div div div .card-footer .card-button svg {
+      width: 20px;
+      height: 20px; }
+    div div div .card-footer .card-button path {
+      text-align: center; }
+
+div .card {
+  width: 228px;
+  height: 290px;
+  padding: .3em;
+  background: #8699b7;
+  background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%);
+  position: initial;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 1rem;
+  margin: 5px; }
+
+footer {
+  position: relative;
+  bottom: 0;
+  margin-top: 5px;
+  background: #1f1c1d;
+  background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%);
+  height: auto; }
+  footer div div {
+    margin-left: 25px; }
+  footer div .footer_logos {
+    margin-left: 35px; }
+  footer div a .logo_redes {
+    margin-left: 5px;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    margin: 3px; }
+
+.div_logo_wss {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+  z-index: 1; }
+  .div_logo_wss .logo_wss {
+    height: 40px;
+    width: 40px;
+    margin: 3px; }
+
+.div_homeServicios {
+  background: #8699b7;
+  background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%); }
+
+a {
+  text-decoration: none; }
+
+.direc {
+  width: 95%;
+  height: 27px; }
+
+.direc:hover {
+  background-color: orange; }
+
+.h2_inicio_pd {
+  margin-top: 10px; }
+
+.h1_pages {
+  text-align: center;
+  margin-top: 15px; }
+
+.h2_pages {
+  text-align: center;
+  margin-top: 25px; }
+
+.h2_consultas {
+  text-align: center;
+  margin-top: 25px;
+  width: 52%; }
+
+.h3_servicios {
+  text-align: start;
+  margin-top: 15px; }
+
+.section_servicios_destacar {
+  height: 45px;
+  margin-top: 15px;
+  display: flex;
+  background: #1f1c1d;
+  background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%);
+  justify-content: center;
+  align-items: center; }
+
+.h3_servicios_destacar {
+  color: red; }
+
+.boton_consulta {
+  margin: 5px; }
+
+.form_consultas {
+  width: 90%;
+  border: solid 2px black;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: large;
+  background: #8699b7;
+  background: radial-gradient(circle, rgba(134, 153, 183, 0.843575) 67%, rgba(207, 208, 147, 0.908001) 100%);
+  color: black; }
+
+.mapaInsertado {
+  margin-top: 6px;
+  border-radius: 15px; }
+
+.div_home {
+  margin-top: 30px;
+  justify-content: center; }
+
+@media (min-width: 0px) {
+  .ul_nav {
+    margin-right: 20px; }
+  .div_logoempresa {
+    text-align: center; }
+  .mapaInsertado {
+    height: 315px; } }
+
+@media (min-width: 576px) {
+  .ul_nav {
+    margin-right: 20px; }
+  .div_logoempresa {
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .ul_nav {
+    margin-right: 20px; }
+  .div_logoempresa {
+    text-align: start;
+    margin-left: 5px; }
+  .mapaInsertado {
+    height: 85%; } }
+
+@media (min-width: 992px) {
+  .ul_nav {
+    margin-right: 34px; } }
+
+@media (min-width: 1200px) {
+  .ul_nav {
+    margin-right: 14px; } }
+
+@media (min-width: 1400px) {
+  .ul_nav {
+    margin-right: 15px; } }
