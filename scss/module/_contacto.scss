@@ -1,0 +1,36 @@
+main{
+    section{
+        h2{
+
+        }
+        .h2_consultas{
+            text-align: center;
+            margin-top: 25px;
+            width: 52%;
+        }
+        form{
+
+        }
+        .form_consultas{
+            width: 90%;
+            border: solid 2px black;
+            border-radius: 15px;
+            margin-left: 15px;
+            margin-top: 5px;
+            font-size: large;
+            background: rgb(134,153,183);
+            background: radial-gradient(circle, rgba(134,153,183,0.8435749299719888) 67%, rgba(207,208,147,0.908000700280112) 100%);
+            color: black;
+        }
+        
+    }
+    section{
+        iframe {
+
+        }
+        .mapaInsertado{
+        margin-top: 6px;
+        border-radius: 15px;
+    }
+    }
+}

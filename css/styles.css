@@ -61,20 +61,20 @@ div div div div .img_productos {
   border-radius: 1rem; }
 
 div div div div .card_info {
-  padding-top: 1%; }
+  padding-top: 1px; }
 
-div div div div p .text-title {
+div div div div .text-title {
   font-weight: 900;
   font-size: 1.2em;
   line-height: 0.7;
   margin-left: 9px;
   margin-top: 3px; }
 
-div div div div p .text-body {
+div div div div .text-body {
   font-size: .8em;
   padding: 1px;
   margin-left: 9px;
-  height: 29px; }
+  height: 31px; }
 
 div div div .card-footer {
   width: 100%;
@@ -87,7 +87,7 @@ div div div .card-footer {
     font-size: 1.2em;
     line-height: 0.7;
     margin-left: 9px;
-    margin-top: 3px; }
+    margin-top: 1px; }
   div div div .card-footer div:hover {
     border: 1px solid #ffcaa6;
     background-color: #ffcaa6; }
@@ -106,7 +106,7 @@ div div div .card-footer {
 
 div .card {
   width: 228px;
-  height: 290px;
+  height: 310px;
   padding: .3em;
   background: #8699b7;
   background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%);
@@ -148,9 +148,6 @@ footer {
   background: #8699b7;
   background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%); }
 
-a {
-  text-decoration: none; }
-
 .direc {
   width: 95%;
   height: 27px; }
@@ -168,11 +165,6 @@ a {
 .h2_pages {
   text-align: center;
   margin-top: 25px; }
-
-.h2_consultas {
-  text-align: center;
-  margin-top: 25px;
-  width: 52%; }
 
 .h3_servicios {
   text-align: start;
@@ -192,21 +184,6 @@ a {
 
 .boton_consulta {
   margin: 5px; }
-
-.form_consultas {
-  width: 90%;
-  border: solid 2px black;
-  border-radius: 15px;
-  margin-left: 15px;
-  margin-top: 5px;
-  font-size: large;
-  background: #8699b7;
-  background: radial-gradient(circle, rgba(134, 153, 183, 0.843575) 67%, rgba(207, 208, 147, 0.908001) 100%);
-  color: black; }
-
-.mapaInsertado {
-  margin-top: 6px;
-  border-radius: 15px; }
 
 .div_home {
   margin-top: 30px;
