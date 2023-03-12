@@ -12,7 +12,8 @@ body {
   color: yellow;
   font-family: 'Caveat', cursive;
   width: 100%;
-  height: 100vh; }
+  height: 100vh;
+  font-size: x-large; }
 
 .main_pages {
   margin-top: 120px;
@@ -20,9 +21,12 @@ body {
   margin-right: 10px;
   height: auto; }
 
+h3 {
+  font-size: xx-large; }
+
 header {
   height: 13vh;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -122,7 +126,8 @@ footer {
   margin-top: 5px;
   background: #1f1c1d;
   background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%);
-  height: auto; }
+  height: auto;
+  font-size: medium; }
   footer div div {
     margin-left: 25px; }
   footer div .footer_logos {
@@ -143,6 +148,26 @@ footer {
     height: 40px;
     width: 40px;
     margin: 3px; }
+
+main section .h2_consultas {
+  text-align: center;
+  margin-top: 25px;
+  width: 52%; }
+
+main section .form_consultas {
+  width: 90%;
+  border: solid 2px black;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: large;
+  background: #8699b7;
+  background: radial-gradient(circle, rgba(134, 153, 183, 0.843575) 67%, rgba(207, 208, 147, 0.908001) 100%);
+  color: black; }
+
+main section .mapaInsertado {
+  margin-top: 6px;
+  border-radius: 15px; }
 
 .div_homeServicios {
   background: #8699b7;
@@ -184,6 +209,11 @@ footer {
 
 .boton_consulta {
   margin: 5px; }
+
+.ulservicios {
+  display: grid;
+  grid-column: 2;
+  grid-row: 4; }
 
 .div_home {
   margin-top: 30px;

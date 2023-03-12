@@ -1,6 +1,6 @@
 header{
     height: 13vh;
-    width: 100%;
+    width: 100vw;
     position:fixed;
     left: 0px;
     top: 0px;
@@ -12,9 +12,6 @@ header{
         div{
             a{
             text-decoration: none;
-                img{
-                    
-                }
                 .logo_empresa{
                     height: 13vh;
                     width: 220px;
