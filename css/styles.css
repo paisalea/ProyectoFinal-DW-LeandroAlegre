@@ -169,6 +169,15 @@ main section .mapaInsertado {
   margin-top: 6px;
   border-radius: 15px; }
 
+.divservicios {
+  background: #1f1c1d;
+  background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%);
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 6px;
+  margin: 8px;
+  text-align: justify; }
+
 .div_homeServicios {
   background: #8699b7;
   background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%); }
