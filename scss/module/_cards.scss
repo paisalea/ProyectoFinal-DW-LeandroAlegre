@@ -1,112 +1,96 @@
-
 div{
-        .div_home{
-            margin-top: 30px;
-            justify-content: center;
+    div{
+        div{
+            .card_img{
+                height: 160px;
+                width: auto;
+                border-radius: 1rem;
+                }
+                
+            img{
+                &:hover{
+                    transition: 1.2s ease;
+                    transform: translateY(-15%);
+                    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px; 
+                
+            }
+            }
+            .img_productos{
+                height: 160px;
+                width: 100%;
+                border-radius: 1rem
+            }
+            
         }
         div{
+            .card_info{
+                padding-top: 1px; 
+            }
+
+                .text-title {
+                    font-weight: 900;
+                    font-size: 1.2em;
+                    line-height: 0.7;
+                    margin-left: 9px;
+                    margin-top: 3px;
+            }
+
+            .text-body {
+                font-size: .8em;
+                padding: 1px;
+                margin-left: 9px;
+                height: 31px; 
+            }
+        }
+
+            .card-footer {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: 1px solid #ddd;
+
+                .text-title {
+                    font-weight: 900;
+                    font-size: 1.2em;
+                    line-height: 0.7;
+                    margin-left: 9px;
+                    margin-top: 1px; 
+            }
             div{
-                div{
-                    .card_img{
-                        height: 160px;
-                        width: auto;
-                        border-radius: 1rem;
-                        }
-                        
-                    img{
-                        &:hover{
-                            transition: 1.2s ease;
-                            transform: translateY(-15%);
-                            box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px; 
-                        
-                    }
-                    }
-                    .img_productos{
-                        height: 160px;
-                        width: 100%;
-                        border-radius: 1rem
-                    }
+                &:hover {
+                    border: 1px solid #ffcaa6;
+                    background-color: #ffcaa6; 
+                }
+                }
+                .card-button {
+                    border: 1px solid #252525;
+                    display: flex;
+                    padding: .3em;
+                    cursor: pointer;
+                    border-radius: 50px;
+                    transition: .3s ease-in-out;
+
+                svg{
+                    width: 20px;
+                    height: 20px;
                     
-                }
-                div{
-                    .card_info{
-                        padding-top: 1px; 
                     }
-                    p{
-                         
-                        }
-                        .text-title {
-                            font-weight: 900;
-                            font-size: 1.2em;
-                            line-height: 0.7;
-                            margin-left: 9px;
-                            margin-top: 3px;
-                    }
-                    p{
-                        
-                    }
-                    .text-body {
-                        font-size: .8em;
-                        padding: 1px;
-                        margin-left: 9px;
-                        height: 31px; 
-                    }
-                }
-                div{
-                     
-                    }
-                    .card-footer {
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        border-top: 1px solid #ddd;
-                    span{
-
-                        }
-                        .text-title {
-                            font-weight: 900;
-                            font-size: 1.2em;
-                            line-height: 0.7;
-                            margin-left: 9px;
-                            margin-top: 1px; 
-                    }
-                    div{
-                        &:hover {
-                            border: 1px solid #ffcaa6;
-                            background-color: #ffcaa6; 
-                        }
-                        }
-                        .card-button {
-                            border: 1px solid #252525;
-                            display: flex;
-                            padding: .3em;
-                            cursor: pointer;
-                            border-radius: 50px;
-                            transition: .3s ease-in-out;
-
-                        svg{
-                            width: 20px;
-                            height: 20px;
-                            
-                            }
-                            path{
-                                text-align: center;
-                            }
-                        }
+                    path{
+                        text-align: center;
                     }
                 }
             }
-            .card{
-                width: 228px;
-                height: 310px;
-                padding: .3em;
-                background: rgb(134,153,183);
-                background: radial-gradient(circle, rgba(134,153,183,0.7147233893557423) 39%, rgba(241,241,240,0.17130602240896353) 100%);
-                position:initial;
-                overflow: visible;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-                border-radius: 1rem;
-                margin: 5px;
         }
     }
+    .card{
+        width: 228px;
+        height: 310px;
+        padding: .3em;
+        background: $gradienteBGGC;
+        overflow: visible;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        border-radius: 1rem;
+        margin: 5px;
+}
+

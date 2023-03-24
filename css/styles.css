@@ -12,32 +12,36 @@ body {
   color: yellow;
   font-family: 'Caveat', cursive;
   width: 100%;
-  height: 100vh;
-  font-size: x-large; }
+  height: 100%;
+  font-size: x-large;
+  overflow-x: hidden; }
 
 .main_pages {
-  margin-top: 120px;
+  margin-top: 15px;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 80px;
   height: auto; }
 
 h3 {
   font-size: xx-large; }
 
+.buscador {
+  margin-top: 96px;
+  margin-right: 1px; }
+
 header {
-  height: 13vh;
-  width: 100vw;
+  height: 13%;
+  width: 100%;
   position: fixed;
   left: 0px;
   top: 0px;
   z-index: 100;
   color: antiquewhite;
-  background: #1f1c1d;
   background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%); }
   header div div a {
     text-decoration: none; }
     header div div a .logo_empresa {
-      height: 13vh;
+      height: 100%;
       width: 220px;
       color: #000; }
   header div nav ul {
@@ -45,76 +49,70 @@ header {
     header div nav ul li a {
       text-decoration: none; }
 
-div .div_home {
-  margin-top: 30px;
-  justify-content: center; }
-
-div div div div .card_img {
+div div div .card_img {
   height: 160px;
   width: auto;
   border-radius: 1rem; }
 
-div div div div img:hover {
+div div div img:hover {
   transition: 1.2s ease;
   transform: translateY(-15%);
   box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px; }
 
-div div div div .img_productos {
+div div div .img_productos {
   height: 160px;
   width: 100%;
   border-radius: 1rem; }
 
-div div div div .card_info {
+div div div .card_info {
   padding-top: 1px; }
 
-div div div div .text-title {
+div div div .text-title {
   font-weight: 900;
   font-size: 1.2em;
   line-height: 0.7;
   margin-left: 9px;
   margin-top: 3px; }
 
-div div div div .text-body {
+div div div .text-body {
   font-size: .8em;
   padding: 1px;
   margin-left: 9px;
   height: 31px; }
 
-div div div .card-footer {
+div div .card-footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #ddd; }
-  div div div .card-footer .text-title {
+  div div .card-footer .text-title {
     font-weight: 900;
     font-size: 1.2em;
     line-height: 0.7;
     margin-left: 9px;
     margin-top: 1px; }
-  div div div .card-footer div:hover {
+  div div .card-footer div:hover {
     border: 1px solid #ffcaa6;
     background-color: #ffcaa6; }
-  div div div .card-footer .card-button {
+  div div .card-footer .card-button {
     border: 1px solid #252525;
     display: flex;
     padding: .3em;
     cursor: pointer;
     border-radius: 50px;
     transition: .3s ease-in-out; }
-    div div div .card-footer .card-button svg {
+    div div .card-footer .card-button svg {
       width: 20px;
       height: 20px; }
-    div div div .card-footer .card-button path {
+    div div .card-footer .card-button path {
       text-align: center; }
 
-div .card {
+.card {
   width: 228px;
   height: 310px;
   padding: .3em;
-  background: #8699b7;
   background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%);
-  position: initial;
   overflow: visible;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 1rem;
@@ -123,11 +121,12 @@ div .card {
 footer {
   position: relative;
   bottom: 0;
-  margin-top: 5px;
+  margin-top: 8px;
   background: #1f1c1d;
   background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%);
   height: auto;
-  font-size: medium; }
+  font-size: medium;
+  width: 100%; }
   footer div div {
     margin-left: 25px; }
   footer div .footer_logos {
@@ -170,17 +169,17 @@ main section .mapaInsertado {
   border-radius: 15px; }
 
 .divservicios {
-  background: #1f1c1d;
-  background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%);
+  background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%);
   border: 2px solid black;
   border-radius: 20px;
   padding: 6px;
   margin: 8px;
-  text-align: justify; }
+  text-align: justify;
+  height: auto; }
 
-.div_homeServicios {
-  background: #8699b7;
-  background: radial-gradient(circle, rgba(134, 153, 183, 0.714723) 39%, rgba(241, 241, 240, 0.171306) 100%); }
+.div_home {
+  margin-top: 30px;
+  justify-content: center; }
 
 .direc {
   width: 95%;
@@ -205,13 +204,16 @@ main section .mapaInsertado {
   margin-top: 15px; }
 
 .section_servicios_destacar {
-  height: 45px;
+  height: auto;
+  border: solid 2px red;
+  border-radius: 20px;
   margin-top: 15px;
   display: flex;
   background: #1f1c1d;
   background: radial-gradient(circle, rgba(31, 28, 29, 0.711922) 67%, rgba(67, 71, 75, 0.846376) 100%);
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
 
 .h3_servicios_destacar {
   color: red; }
@@ -224,17 +226,15 @@ main section .mapaInsertado {
   grid-column: 2;
   grid-row: 4; }
 
-.div_home {
-  margin-top: 30px;
-  justify-content: center; }
-
 @media (min-width: 0px) {
   .ul_nav {
     margin-right: 20px; }
   .div_logoempresa {
     text-align: center; }
   .mapaInsertado {
-    height: 315px; } }
+    height: 315px; }
+  .buscador {
+    margin-top: 145px; } }
 
 @media (min-width: 576px) {
   .ul_nav {
@@ -249,7 +249,9 @@ main section .mapaInsertado {
     text-align: start;
     margin-left: 5px; }
   .mapaInsertado {
-    height: 85%; } }
+    height: 85%; }
+  .buscador {
+    margin-top: 96px; } }
 
 @media (min-width: 992px) {
   .ul_nav {

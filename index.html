@@ -27,6 +27,14 @@
         </nav>
       </div>
     </header>
+    <section class="row justify-content-end">
+      <div class="container-fluid col-4 row buscador ">
+        <form class="d-flex mt-15" role="search">
+          <input class="form-control me-2" type="search" placeholder="Ingrese lo que desea buscar" aria-label="Search">
+          <button class="btn btn-outline-success btn-primary text-black" type="submit">Buscar</button>
+        </form>
+      </div>
+    </section>
     <main class="main_pages row">
         <section class="container col-lg-8 col-md-8 col-sm-12">
           <h2 class=" text-center "> Productos Destacados</h2> 
@@ -137,15 +145,81 @@
           </div>
         </section>
         <section class="container col-lg-4 col-md-4 col-sm-12">
-          <h2 href="#" class="list-group active text-center"> Nuestros Servicios</h2> 
-          <div class="div_home list-group text-center">
-            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Desarrollo de Paginas Web</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Desarrollo de Programas a Medida</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Servidores de Correo Electronico</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Hosting de Servidores</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Sistema de Tickets</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-info">Soporte de Infraestructura Informatica</a>
-
+          <h2 href="#" class="list-group active text-center mb-5"> Nuestros Servicios</h2> 
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                    Desarrollo Web
+                  </button>
+                </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body fs-5">
+                  En el mundo actual de las tecnologias, uno de los prinpales medios de hacer llegar tu empresa al publico es una Pagina Web, no dejes de tener la tuya. Diseño moderno y funcionalidad son de las principales fortalezas de nuestros Desarrollos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Desarrollo de Programas a Medida
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body fs-5">
+                  Nos especializamos en el Desarrollo de Programas que cumplan con las espectativas y satisfagan las necesidades de nuestros clientes. Dichos programas pueden contener modulos referentes a RRHH, contable, logistica, e-commerce, y mucho más.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Servidores de Correo Electronico
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body fs-5">
+                  Nunca es tarde para tener un correo personalizado y con tu propio dominio. Siendo un servicio tan sencible para nuestros clientes, no esforzamos por darle la importancia que amerita. Brindamos el servicio de Correo Electrónico más destacado del mercado actual. Contamos con altos estandares de seguridad para tu información. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                  Hosting de Servidores
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                <div class="accordion-body fs-5">
+                  Maxima seguridad, estabilidad, cero incidencias, acceso personalizado y amplio catalago de servidores, son, entre otras, las principales ventajas de poseer un servidor hosteado con nosotros. Asimismo, se posee un soporte 24/7, con servidores y proveedores de internet de respaldo ante una poible incidencia. Dale a tu empresa el mejor HOGAR.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  Sistema de Tickets
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body fs-5">
+                  ¿No sabes como gestionar y tener un control sobre las incidencias y soluciones brindadas dentro de tu empresa? Tenemos un servicio que puede cambiar la gestión y tiempos de demanda para ellas. TicSis es el sistema de Tickets que te va a permitir acortar los tiempos de comunicacion de TODA TU EMPRESA. Posee integraciones para areas como RRHH, Sistemas, Facturacion. En caso, de no contar con la estructura que estas necesitando, la creamos para vos.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                  Soporte de Infraestructura Informatica
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                <div class="accordion-body fd-5">
+                  Dale a la Infraestructura de tu empresa la importancia que requiere. Equipos de trabajo 24/7. Se les asignara un equipo de trabajo el cual esta a disposicion durante los 365 dias del año.
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
