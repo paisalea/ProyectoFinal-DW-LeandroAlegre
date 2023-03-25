@@ -18,8 +18,6 @@ body {
 
 .main_pages {
   margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 80px;
   height: auto; }
 
 h3 {
@@ -187,6 +185,9 @@ main section .mapaInsertado {
 
 .direc:hover {
   background-color: orange; }
+
+.accordion_collapse {
+  justify-content: center; }
 
 .h2_inicio_pd {
   margin-top: 10px; }
